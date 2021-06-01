@@ -1,0 +1,101 @@
+@media (min-width:50px) and (max-width:420px) {
+    
+    body,p,h2{
+        margin:0px;
+        padding: 0px;
+    }
+    
+    div.cover{
+        background-color: white;
+        width: fit-content;
+        height: 100%;
+        padding-top: 35%;
+        padding-bottom: 20%;
+        padding-right: 10%;
+        padding-left: 10%;
+    
+    }
+    h2,.start-text{
+        text-align: center;
+        
+        
+    }
+    .start-text{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+
+    div.inner-cover{
+        margin-top: 0.5em;
+        background-color: white;
+        box-shadow: 0px 0px 0px 0px #ccc;
+        border-radius: 0.2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border: 1px solid #ccc;
+        
+    }
+
+    input[type="text"]{
+        width: 100%;
+        padding: 0.65em;
+        border: 1px solid #ccc;
+        border-radius: 0.2em;
+        margin-top: 0.5em;
+        letter-spacing: .15em;
+        
+    }
+    input:focus{
+        border: none;
+    }
+
+    #output-images{
+        margin-top: 1.2em;
+        margin-bottom: 1.2em;
+        text-align: center;
+    }
+
+    ::placeholder{
+        height: 1.2em;
+        letter-spacing: 0.1em;
+    }
+    :placeholder-shown{
+        
+    }
+
+    .out-put{
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    div.button-class{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        height: 3em;
+        margin-bottom: .5em;
+        background-color: transparent;
+        border: 1px solid darkgray;
+        border-radius: 0.2em;
+        color: darkgray;
+    }
+    button:hover{
+       
+        background-color:white ;
+        border: 1px solid green;
+        color: green;
+        box-shadow: 1px 1px 1px 1px darkolivegreen;
+        font-size: medium;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+}
