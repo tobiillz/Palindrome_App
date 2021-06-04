@@ -148,6 +148,9 @@
         margin-top: 1.2em;
         margin-bottom: 1.2em;
         text-align: center;
+        font-style: italic;
+        font-size:x-large;
+        color:black;
     }
 
     ::placeholder{
