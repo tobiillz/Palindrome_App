@@ -11,7 +11,16 @@ function resetFunction(){
 function palindromeFunction(){
     const userInput = document.getElementById("input-text").value;
     const alphaNumeric = userInput.toLowerCase().match(/[a-z0-9]/g);
-    const outPut = (alphaNumeric.join("") === alphaNumeric.reverse().join("")) 
-    ? document.getElementById("output-images").innerHTML = `${alphaNumeric.join("")} is a palindrome` : document.getElementById("output-images").innerHTML = `${userInput} is not a palindrome`;
+    
+    if (userInput.length > 1){
+        const outPut = (alphaNumeric.join("") === alphaNumeric.reverse().join("")) 
+        ? document.getElementById("output-images").innerHTML = `${alphaNumeric.join("")} is a palindrome` : document.getElementById("output-images").innerHTML = `${userInput} is not a palindrome`;
+    }else if (userInput.length == 1){
+        const outPut1 = document.getElementById("output-images").innerHTML = 'Please enter more than one character !!!';   
+    }else{
+        const outPut1 = document.getElementById("output-images").innerHTML =  `That's an empty text field.`;
+        
+    }
+   
     console.log(outPut);
 }
